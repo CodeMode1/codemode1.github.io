@@ -1,32 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CodeMode1</title>
-  <style>
-    :root { --bg: #f7f7f5; --fg: #1f2328; --muted: #6a737d; --accent: #0969da; }
-    @media (prefers-color-scheme: dark) {
-      :root { --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e; --accent: #4493f8; }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; min-height: 100vh; display: grid; place-items: center;
-      padding: 16px; background: var(--bg); color: var(--fg);
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      text-align: center;
-    }
-    h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 0.5rem; }
-    p { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.1rem; }
-    a { color: var(--accent); text-decoration: none; font-weight: 600; }
-    a:hover { text-decoration: underline; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>CodeMode1</h1>
-    <p>Site under construction. Check back soon.</p>
-    <a href="https://github.com/CodeMode1">github.com/CodeMode1</a>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CodeMode1 · Workshop</title>
+    <meta name="description" content="Portfolio of CodeMode1, a full-stack .NET and Angular engineer: real-time SignalR, Hangfire background jobs, MEAN stack and component-driven front ends." />
+    <meta name="theme-color" content="#14110f" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d4a94f' d='M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.4 7.4 0 0 0-1.7-1L15 3.5h-4l-.4 2.5a7.4 7.4 0 0 0-1.7 1l-2.4-1-2 3.4L6.6 11a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7.4 7.4 0 0 0 1.7 1l.4 2.5h4l.4-2.5a7.4 7.4 0 0 0 1.7-1l2.4 1 2-3.4-2-1.6zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas class="steam" aria-hidden="true"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <nav class="nav" aria-label="Main">
+      <div class="nav__inner">
+        <a class="nav__brand" href="#top">CodeMode<span class="digit">1</span></a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="visually-hidden">Menu</span><span class="nav__toggle-bar" aria-hidden="true"></span>
+        </button>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#engine-room">Engine Room</a></li>
+          <li><a href="#creed">Creed</a></li>
+          <li><a href="#gauges">Gauges</a></li>
+          <li><a href="#workshop">Workshop</a></li>
+          <li><a href="#chronicle">Chronicle</a></li>
+          <li><a href="#inventions">Inventions</a></li>
+        </ul>
+      </div>
+      <div class="nav__pipe" aria-hidden="true"><span class="nav__pipe-fill"></span></div>
+    </nav>
+
+    <main id="top">
+      <section class="hero" id="hero"></section>
+      <section class="section" id="engine-room"></section>
+      <section class="section" id="creed"></section>
+      <section class="section" id="gauges"></section>
+      <section class="section" id="workshop"></section>
+      <section class="section" id="chronicle"></section>
+      <section class="section" id="inventions"></section>
+    </main>
+
+    <footer class="footer" id="footer"></footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

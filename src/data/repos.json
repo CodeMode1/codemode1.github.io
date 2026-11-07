@@ -1,0 +1,710 @@
+{
+  "user": "CodeMode1",
+  "generatedAt": "2026-11-07T16:29:18.587Z",
+  "repos": [
+    {
+      "name": "statusline",
+      "description": "Custom CLI status line",
+      "url": "https://github.com/CodeMode1/statusline",
+      "fork": true,
+      "parent": {
+        "fullName": "hiadamhere/statusline",
+        "url": "https://github.com/hiadamhere/statusline"
+      },
+      "createdAt": "2026-11-07T15:23:32Z",
+      "pushedAt": "2026-10-09T13:44:08Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "PowerShell": 4639
+      }
+    },
+    {
+      "name": "engineering-standards",
+      "description": "Executable engineering standards, Guardrails, reusable workflows, and AI-assisted engineering practices.",
+      "url": "https://github.com/CodeMode1/engineering-standards",
+      "fork": true,
+      "parent": {
+        "fullName": "ravisingh11/ai-engineering-guardrails",
+        "url": "https://github.com/ravisingh11/ai-engineering-guardrails"
+      },
+      "createdAt": "2026-08-31T14:40:35Z",
+      "pushedAt": "2026-08-31T14:38:33Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "Python": 726832,
+        "Shell": 7038,
+        "JavaScript": 275
+      }
+    },
+    {
+      "name": "llm_engineering_notes",
+      "description": "",
+      "url": "https://github.com/CodeMode1/llm_engineering_notes",
+      "fork": false,
+      "createdAt": "2025-06-13T12:57:23Z",
+      "pushedAt": "2025-09-04T18:16:36Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {}
+    },
+    {
+      "name": "vue-project",
+      "description": "",
+      "url": "https://github.com/CodeMode1/vue-project",
+      "fork": false,
+      "createdAt": "2024-04-30T00:14:44Z",
+      "pushedAt": "2025-06-11T15:59:26Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "Vue": 13344,
+        "CSS": 2559,
+        "TypeScript": 1562,
+        "JavaScript": 333,
+        "HTML": 331
+      }
+    },
+    {
+      "name": "tailwind-buddy",
+      "description": "Tailwind Buddy: Your Friendly Helper for Composing Tailwind Classes 🎨",
+      "url": "https://github.com/CodeMode1/tailwind-buddy",
+      "fork": true,
+      "parent": {
+        "fullName": "busbud/tailwind-buddy",
+        "url": "https://github.com/busbud/tailwind-buddy"
+      },
+      "createdAt": "2024-06-28T15:22:00Z",
+      "pushedAt": "2025-06-10T18:02:12Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 49335,
+        "JavaScript": 6870,
+        "Vue": 1552,
+        "HTML": 1063,
+        "CSS": 259
+      }
+    },
+    {
+      "name": "Aurelia-Getting-Started",
+      "description": "",
+      "url": "https://github.com/CodeMode1/Aurelia-Getting-Started",
+      "fork": false,
+      "createdAt": "2024-04-26T15:34:11Z",
+      "pushedAt": "2024-04-26T16:53:01Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 13417,
+        "JavaScript": 11800,
+        "HTML": 477,
+        "EJS": 411
+      }
+    },
+    {
+      "name": "baby-random-chooser",
+      "description": "",
+      "url": "https://github.com/CodeMode1/baby-random-chooser",
+      "fork": false,
+      "createdAt": "2022-06-09T00:46:48Z",
+      "pushedAt": "2022-06-15T02:15:10Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 12460,
+        "JavaScript": 1784,
+        "HTML": 711,
+        "SCSS": 561
+      }
+    },
+    {
+      "name": "WineTracker",
+      "description": "Wine management app",
+      "url": "https://github.com/CodeMode1/WineTracker",
+      "fork": false,
+      "createdAt": "2022-05-01T19:57:09Z",
+      "pushedAt": "2022-05-12T21:50:34Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 19118,
+        "HTML": 6642,
+        "C#": 5380,
+        "JavaScript": 1722,
+        "CSS": 768
+      }
+    },
+    {
+      "name": "SimulateConflictGitKraken",
+      "description": "Simulate merge conflict with Git Kraken first time using. Test 'open external merge tool' with Araxis Merge.",
+      "url": "https://github.com/CodeMode1/SimulateConflictGitKraken",
+      "fork": false,
+      "createdAt": "2021-01-04T17:21:24Z",
+      "pushedAt": "2021-01-04T19:22:47Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 59
+      }
+    },
+    {
+      "name": "sbuttons",
+      "description": "Simple buttons you can use easily for your next project.",
+      "url": "https://github.com/CodeMode1/sbuttons",
+      "fork": true,
+      "parent": {
+        "fullName": "sButtons/sbuttons",
+        "url": "https://github.com/sButtons/sbuttons"
+      },
+      "createdAt": "2020-09-13T14:53:17Z",
+      "pushedAt": "2020-09-13T16:40:01Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "Less": 12268,
+        "JavaScript": 11557,
+        "HTML": 7685,
+        "CSS": 6544
+      }
+    },
+    {
+      "name": "Flutter-Firebase-Auth",
+      "description": "Authentication: SignIn & SignUp integrated with Firebase for Flutter.",
+      "url": "https://github.com/CodeMode1/Flutter-Firebase-Auth",
+      "fork": false,
+      "createdAt": "2020-06-24T23:56:18Z",
+      "pushedAt": "2020-09-04T02:50:44Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "Dart": 15471,
+        "Kotlin": 416,
+        "Swift": 404,
+        "Objective-C": 37
+      }
+    },
+    {
+      "name": "randomChooser",
+      "description": "an app that will choose randomly between users eliminating progressively each one",
+      "url": "https://github.com/CodeMode1/randomChooser",
+      "fork": true,
+      "parent": {
+        "fullName": "mathieu2em/randomChooser",
+        "url": "https://github.com/mathieu2em/randomChooser"
+      },
+      "createdAt": "2020-07-27T00:13:30Z",
+      "pushedAt": "2020-07-27T02:37:57Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "HTML": 3526,
+        "JavaScript": 3259,
+        "CSS": 1035
+      }
+    },
+    {
+      "name": "angular-froala-wysiwyg",
+      "description": "Angular 4, 5, 6, 7, 8 and 9 plugin for Froala WYSIWYG HTML Rich Text Editor.",
+      "url": "https://github.com/CodeMode1/angular-froala-wysiwyg",
+      "fork": true,
+      "parent": {
+        "fullName": "florinpopescu/angular2-froala-wysiwyg",
+        "url": "https://github.com/florinpopescu/angular2-froala-wysiwyg"
+      },
+      "createdAt": "2020-06-28T18:53:24Z",
+      "pushedAt": "2020-06-28T22:53:45Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 9953
+      }
+    },
+    {
+      "name": "SarahProject-Final",
+      "description": "DEC final project - I chose to make a SPA with MongoDB, Express API, Angular and Node.js -- commonly called the MEAN stack. This project manages clients and their respective events, activities, services and ressources through a Telerik Kendo UI agenda.",
+      "url": "https://github.com/CodeMode1/SarahProject-Final",
+      "fork": false,
+      "createdAt": "2020-06-27T22:38:24Z",
+      "pushedAt": "2020-06-28T00:07:16Z",
+      "topics": [
+        "angular",
+        "css",
+        "express-js",
+        "html",
+        "mongodb",
+        "mongoose",
+        "nodejs",
+        "spa",
+        "telerik",
+        "typescript"
+      ],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 128162,
+        "HTML": 103522,
+        "JavaScript": 41696,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "angular-multiselect",
+      "description": "Created with StackBlitz ⚡️",
+      "url": "https://github.com/CodeMode1/angular-multiselect",
+      "fork": false,
+      "createdAt": "2020-01-19T19:27:38Z",
+      "pushedAt": "2020-01-19T19:28:43Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 5684,
+        "HTML": 1075,
+        "CSS": 329
+      }
+    },
+    {
+      "name": "AotWebpackCompiler-V.Angular5",
+      "description": "using angularCompilerOptions replacing V.A4 AotPlugin from the @ngtools/webpack in the V.A5 most recent Angular version.",
+      "url": "https://github.com/CodeMode1/AotWebpackCompiler-V.Angular5",
+      "fork": false,
+      "createdAt": "2018-01-19T22:38:08Z",
+      "pushedAt": "2018-01-25T15:44:01Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 25854,
+        "JavaScript": 6632,
+        "C#": 5779,
+        "HTML": 3828,
+        "CSS": 1371
+      }
+    },
+    {
+      "name": "Angular2CoreSeed2",
+      "description": "integrated identity / many to many tables",
+      "url": "https://github.com/CodeMode1/Angular2CoreSeed2",
+      "fork": false,
+      "createdAt": "2017-02-10T20:26:51Z",
+      "pushedAt": "2017-02-26T19:32:27Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "C#": 109415,
+        "TypeScript": 81450,
+        "HTML": 47737,
+        "CSS": 8835,
+        "JavaScript": 4880
+      }
+    },
+    {
+      "name": "Kendo-UI-Angular2-Components-Demo",
+      "description": "buttons (button, button group, split button, drop down button), chart, dateinputs (calendar), dialog, dropdowns ( autocomplete, combo box, drop down list, multiselect) , grid, inputs ( slider, switch, masked text box, numeric text box) , layout (panel bar, tab strip), popup, sortable, upload.",
+      "url": "https://github.com/CodeMode1/Kendo-UI-Angular2-Components-Demo",
+      "fork": false,
+      "createdAt": "2017-02-19T03:35:48Z",
+      "pushedAt": "2017-02-19T03:58:17Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "HTML": 18221,
+        "TypeScript": 10984,
+        "C#": 5785,
+        "JavaScript": 4703,
+        "CSS": 2087
+      }
+    },
+    {
+      "name": "Angular2CoreSeed1",
+      "description": "",
+      "url": "https://github.com/CodeMode1/Angular2CoreSeed1",
+      "fork": false,
+      "createdAt": "2017-02-06T20:51:19Z",
+      "pushedAt": "2017-02-06T21:02:32Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "C#": 35637,
+        "TypeScript": 22945,
+        "HTML": 11682,
+        "JavaScript": 4190,
+        "CSS": 2062
+      }
+    },
+    {
+      "name": "Angular2CoreSeed",
+      "description": "Seed project with ASP.NET Core template pack (VS extension) to integrate Angular2 client-side. ",
+      "url": "https://github.com/CodeMode1/Angular2CoreSeed",
+      "fork": false,
+      "createdAt": "2017-01-26T15:13:27Z",
+      "pushedAt": "2017-02-03T21:18:34Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "C#": 35637,
+        "TypeScript": 23188,
+        "HTML": 12116,
+        "JavaScript": 4190,
+        "CSS": 1603
+      }
+    },
+    {
+      "name": "SarahProjectV5",
+      "description": "",
+      "url": "https://github.com/CodeMode1/SarahProjectV5",
+      "fork": false,
+      "createdAt": "2016-12-02T04:32:20Z",
+      "pushedAt": "2017-01-10T01:47:13Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 128041,
+        "HTML": 103522,
+        "JavaScript": 42552,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "MenNotes",
+      "description": "MongoDb, Express API, Node JS. Note app. All JS client side. Multiple views (not SPA).",
+      "url": "https://github.com/CodeMode1/MenNotes",
+      "fork": false,
+      "createdAt": "2017-01-06T03:59:17Z",
+      "pushedAt": "2017-01-06T04:00:46Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "HTML": 14841,
+        "JavaScript": 12078,
+        "CSS": 333
+      }
+    },
+    {
+      "name": "Ng2Messages",
+      "description": "MEAN stack 2.0 small app. CRUD messages. Only owner of a message can edit/delete it.",
+      "url": "https://github.com/CodeMode1/Ng2Messages",
+      "fork": false,
+      "createdAt": "2017-01-06T03:44:48Z",
+      "pushedAt": "2017-01-06T03:47:42Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 26835,
+        "JavaScript": 18093,
+        "HTML": 1842,
+        "CSS": 316
+      }
+    },
+    {
+      "name": "ExpressLibraryApp",
+      "description": "JS, Express (API), Node js, Mongo db = Web App.",
+      "url": "https://github.com/CodeMode1/ExpressLibraryApp",
+      "fork": false,
+      "createdAt": "2017-01-06T03:13:20Z",
+      "pushedAt": "2017-01-06T03:15:06Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "CSS": 137583,
+        "HTML": 18012,
+        "JavaScript": 11341
+      }
+    },
+    {
+      "name": "TSVendingMachine",
+      "description": "MVVM (knockout js), getters, setters, functions and arrows, arrays, atatic members, abstract classes, polymorphism (inheritance).",
+      "url": "https://github.com/CodeMode1/TSVendingMachine",
+      "fork": false,
+      "createdAt": "2017-01-06T02:54:13Z",
+      "pushedAt": "2017-01-06T02:56:35Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 6769,
+        "HTML": 2318,
+        "CSS": 658
+      }
+    },
+    {
+      "name": "Ng2Service",
+      "description": "Event Emitters, service injection, displaying/storing/logging data, sending data to another component.",
+      "url": "https://github.com/CodeMode1/Ng2Service",
+      "fork": false,
+      "createdAt": "2017-01-06T02:25:00Z",
+      "pushedAt": "2017-01-06T02:25:57Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 7670,
+        "JavaScript": 4246,
+        "HTML": 747
+      }
+    },
+    {
+      "name": "Ng2Routing",
+      "description": "Principles or routing to different routes, passing params to the url, protecting routes with guards.",
+      "url": "https://github.com/CodeMode1/Ng2Routing",
+      "fork": false,
+      "createdAt": "2017-01-06T02:03:54Z",
+      "pushedAt": "2017-01-06T02:05:15Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 9175,
+        "JavaScript": 3600,
+        "HTML": 1352
+      }
+    },
+    {
+      "name": "Ng2RecipeBook",
+      "description": "CRUD small app. Add ingredients and content to recipes.",
+      "url": "https://github.com/CodeMode1/Ng2RecipeBook",
+      "fork": false,
+      "createdAt": "2017-01-06T01:43:20Z",
+      "pushedAt": "2017-01-06T01:44:56Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 20725,
+        "HTML": 9252,
+        "JavaScript": 4246
+      }
+    },
+    {
+      "name": "Ng2Pipes",
+      "description": "use of formating pipes (dates, up/lower cases, async, filtering, slice, double)",
+      "url": "https://github.com/CodeMode1/Ng2Pipes",
+      "fork": false,
+      "createdAt": "2017-01-06T01:34:50Z",
+      "pushedAt": "2017-01-06T01:36:32Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 4262,
+        "JavaScript": 3600,
+        "HTML": 1423
+      }
+    },
+    {
+      "name": "Ng2Heroes",
+      "description": "Small app to demonstrate Ng2 lists, view details, create, route between the options.",
+      "url": "https://github.com/CodeMode1/Ng2Heroes",
+      "fork": false,
+      "createdAt": "2017-01-06T01:21:44Z",
+      "pushedAt": "2017-01-06T01:22:40Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 10434,
+        "JavaScript": 4246,
+        "CSS": 1835,
+        "HTML": 1752
+      }
+    },
+    {
+      "name": "Ng2ngContent",
+      "description": "use of NgContent (\"dynamically\" insert content in components where marked with ng-content custom tag)",
+      "url": "https://github.com/CodeMode1/Ng2ngContent",
+      "fork": false,
+      "createdAt": "2017-01-06T01:14:06Z",
+      "pushedAt": "2017-01-06T01:15:19Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "JavaScript": 4246,
+        "TypeScript": 4138,
+        "HTML": 879,
+        "CSS": 20
+      }
+    },
+    {
+      "name": "Ng2Http",
+      "description": "Service and Http calls to cloud db (firebase)",
+      "url": "https://github.com/CodeMode1/Ng2Http",
+      "fork": false,
+      "createdAt": "2017-01-06T01:03:57Z",
+      "pushedAt": "2017-01-06T01:05:01Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 5296,
+        "JavaScript": 3600,
+        "HTML": 1293
+      }
+    },
+    {
+      "name": "Ng2Forms",
+      "description": "Template and Data Driven approaches.",
+      "url": "https://github.com/CodeMode1/Ng2Forms",
+      "fork": false,
+      "createdAt": "2017-01-06T00:43:12Z",
+      "pushedAt": "2017-01-06T00:44:19Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 7003,
+        "JavaScript": 4246,
+        "HTML": 3847
+      }
+    },
+    {
+      "name": "Ng2DataBinding",
+      "description": "string interpolation, attribute directive (change the appearance or behavior of an element), Structural directives (change the DOM layout by adding and removing DOM elements), property binding (inputs), event binding, two-way binding.",
+      "url": "https://github.com/CodeMode1/Ng2DataBinding",
+      "fork": false,
+      "createdAt": "2017-01-05T22:36:04Z",
+      "pushedAt": "2017-01-05T22:37:34Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 6941,
+        "JavaScript": 4246,
+        "HTML": 1691,
+        "CSS": 40
+      }
+    },
+    {
+      "name": "Ng2Auth",
+      "description": "Authentification and Authorization (protecting routes with guards)",
+      "url": "https://github.com/CodeMode1/Ng2Auth",
+      "fork": false,
+      "createdAt": "2017-01-05T22:07:14Z",
+      "pushedAt": "2017-01-05T22:10:18Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 13394,
+        "JavaScript": 3600,
+        "HTML": 1555
+      }
+    },
+    {
+      "name": "APM",
+      "description": "Acme Products Management (list and details of products).",
+      "url": "https://github.com/CodeMode1/APM",
+      "fork": false,
+      "createdAt": "2017-01-05T20:06:42Z",
+      "pushedAt": "2017-01-05T21:40:20Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 10901,
+        "HTML": 5245,
+        "JavaScript": 4246,
+        "CSS": 238
+      }
+    },
+    {
+      "name": "Ng2Attributes",
+      "description": "presentation of different Ng2 attributes (ex : classes, style, switch, if)",
+      "url": "https://github.com/CodeMode1/Ng2Attributes",
+      "fork": false,
+      "createdAt": "2017-01-05T19:19:24Z",
+      "pushedAt": "2017-01-05T19:31:16Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 5310,
+        "JavaScript": 4246,
+        "HTML": 1409,
+        "CSS": 128
+      }
+    },
+    {
+      "name": "CarteRistourneMVC4",
+      "description": "shopping cart with cards",
+      "url": "https://github.com/CodeMode1/CarteRistourneMVC4",
+      "fork": false,
+      "createdAt": "2017-01-04T23:56:05Z",
+      "pushedAt": "2017-01-05T00:18:21Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "C#": 130720,
+        "CSS": 10750,
+        "JavaScript": 4090,
+        "ASP": 110
+      }
+    },
+    {
+      "name": "SchedulerTelerikSarah2.0",
+      "description": "",
+      "url": "https://github.com/CodeMode1/SchedulerTelerikSarah2.0",
+      "fork": false,
+      "createdAt": "2016-12-04T07:08:42Z",
+      "pushedAt": "2016-12-04T07:14:40Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 77337,
+        "HTML": 66808,
+        "JavaScript": 30763,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "SarahProjectV4",
+      "description": "Evenements",
+      "url": "https://github.com/CodeMode1/SarahProjectV4",
+      "fork": false,
+      "createdAt": "2016-10-31T13:29:38Z",
+      "pushedAt": "2016-12-01T18:35:38Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 110038,
+        "HTML": 96900,
+        "JavaScript": 44808,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "SarahProjectV3",
+      "description": "SarahProject October 30th",
+      "url": "https://github.com/CodeMode1/SarahProjectV3",
+      "fork": false,
+      "createdAt": "2016-10-30T17:41:40Z",
+      "pushedAt": "2016-10-30T20:33:58Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 52253,
+        "HTML": 36728,
+        "JavaScript": 23502,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "SarahProjectV2",
+      "description": "SarahProjectV2",
+      "url": "https://github.com/CodeMode1/SarahProjectV2",
+      "fork": false,
+      "createdAt": "2016-10-18T19:38:22Z",
+      "pushedAt": "2016-10-28T00:58:05Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 49269,
+        "HTML": 35484,
+        "JavaScript": 22346,
+        "CSS": 694
+      }
+    },
+    {
+      "name": "SarahProject",
+      "description": "Sarah Project",
+      "url": "https://github.com/CodeMode1/SarahProject",
+      "fork": false,
+      "createdAt": "2016-10-04T02:50:46Z",
+      "pushedAt": "2016-10-14T03:02:29Z",
+      "topics": [],
+      "stars": 0,
+      "languages": {
+        "TypeScript": 51248,
+        "JavaScript": 16934,
+        "HTML": 9350,
+        "CSS": 324
+      }
+    }
+  ]
+}
