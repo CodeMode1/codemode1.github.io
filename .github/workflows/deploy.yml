@@ -42,3 +42,58 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  tag:
+    # After a successful deploy of main, tag the deployed commit with the next
+    # semantic version. The bump is read from the commit messages since the
+    # last tag (Conventional Commits style):
+    #   "BREAKING CHANGE" or "type!:"  -> major
+    #   "feat:" / "feat(scope):"       -> minor
+    #   anything else                  -> patch
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Tag deployed commit
+        run: |
+          set -euo pipefail
+          git fetch --tags --force
+
+          if [ -n "$(git tag --points-at HEAD --list 'v*')" ]; then
+            echo "HEAD is already tagged: $(git tag --points-at HEAD --list 'v*' | xargs)"
+            exit 0
+          fi
+
+          last=$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1)
+          if [ -z "$last" ]; then
+            last=v0.0.0
+            range=HEAD
+          else
+            range="$last..HEAD"
+          fi
+
+          log=$(git log --format='%s%n%b' "$range")
+          IFS=. read -r major minor patch <<< "${last#v}"
+
+          if grep -qE '^BREAKING CHANGE|^[a-z]+(\([^)]*\))?!:' <<< "$log"; then
+            major=$((major + 1)); minor=0; patch=0
+          elif grep -qE '^feat(\([^)]*\))?:' <<< "$log"; then
+            minor=$((minor + 1)); patch=0
+          else
+            patch=$((patch + 1))
+          fi
+
+          next="v$major.$minor.$patch"
+          echo "Last tag: $last -> next: $next"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$next" -m "$next - deployed $(git rev-parse --short HEAD)"
+          git push origin "$next"
+          echo "### Tagged \`$next\`" >> "$GITHUB_STEP_SUMMARY"
