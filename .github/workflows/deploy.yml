@@ -47,7 +47,7 @@ jobs:
     # After a successful deploy of main, tag the deployed commit with the next
     # semantic version. The bump is read from the commit messages since the
     # last tag (Conventional Commits style):
-    #   "BREAKING CHANGE" or "type!:"  -> major
+    #   "BREAKING CHANGE:" footer or "type!:"  -> major
     #   "feat:" / "feat(scope):"       -> minor
     #   anything else                  -> patch
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -81,7 +81,7 @@ jobs:
           log=$(git log --format='%s%n%b' "$range")
           IFS=. read -r major minor patch <<< "${last#v}"
 
-          if grep -qE '^BREAKING CHANGE|^[a-z]+(\([^)]*\))?!:' <<< "$log"; then
+          if grep -qE '^BREAKING[ -]CHANGE:|^[a-z]+(\([^)]*\))?!:' <<< "$log"; then
             major=$((major + 1)); minor=0; patch=0
           elif grep -qE '^feat(\([^)]*\))?:' <<< "$log"; then
             minor=$((minor + 1)); patch=0
