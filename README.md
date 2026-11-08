@@ -31,3 +31,20 @@ Animations respect `prefers-reduced-motion`.
 
 `.github/workflows/deploy.yml` builds on every pull request and deploys `main` to GitHub Pages.
 Pages must be set to **Source: GitHub Actions** (Settings → Pages) for the deploy job to publish.
+
+### Version tags
+
+After each successful deploy of `main`, the `tag` job tags the deployed commit with the next
+semantic version. It reads every commit message (title and body) since the last `v*` tag, in
+[Conventional Commits](https://www.conventionalcommits.org/) style, and applies the single
+highest bump it finds:
+
+| Bump | When | Example message | Result from `v1.0.2` |
+| --- | --- | --- | --- |
+| **Major** | A line starts with `BREAKING CHANGE:` or `BREAKING-CHANGE:`, or a title uses `!` after the type | `feat!: new layout`<br>`refactor(api)!: drop v1`<br>body line `BREAKING CHANGE: removed old URLs` | `v2.0.0` |
+| **Minor** | A line starts with `feat:` or `feat(scope):` | `feat: dark mode toggle`<br>`feat(gauges): live repo counts` | `v1.1.0` |
+| **Patch** | Anything else | `fix: gear alignment`<br>`ci: …`, `docs: …`, `chore: …`<br>`Update readme` | `v1.0.3` |
+
+If there are no tags yet, it counts from `v0.0.0`. If the commit already has a `v*` tag, the job
+skips tagging. A GitHub merge commit includes the PR title in its body, so a PR titled
+`feat: …` produces a minor bump.
